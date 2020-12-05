@@ -4,13 +4,13 @@ module.exports = {
     /* ... */
   },
   plugins: [
-    /* ... */
+    '@snowpack/plugin-svelte'
   ],
   install: [
     /* ... */
   ],
   installOptions: {
-    /* ... */
+    "packageLookupFields": [ "svelte" ]
   },
   devOptions: {
     /* ... */
